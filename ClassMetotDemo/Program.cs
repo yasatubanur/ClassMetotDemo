@@ -7,8 +7,7 @@ namespace ClassMetotDemo
         static void Main(string[] args)
         {
             Musteri musteri = new Musteri();
-            Musteri[] musteriler = new Musteri[] { };
-
+           
             MusteriManager musteriManager = new MusteriManager();
             musteriManager.Ekle(musteri);
             musteriManager.Listele(musteri);
